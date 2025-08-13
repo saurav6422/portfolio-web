@@ -394,6 +394,17 @@ section {
   justify-content: flex-start;
 }
 
+article.wide-skill {
+  width: auto;
+}
+
+article.wide-skill div {
+  display: flex;       
+  flex-direction: column; 
+  align-items: flex-start;
+  gap: 0.1rem;         
+}
+
 
 article {
   display: flex;
