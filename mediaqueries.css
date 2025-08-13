@@ -12,9 +12,13 @@
   #desktop-nav {
     display: none;
   }
-  #hamburger-nav {
-    display: flex;
+
+  .top-nav-container {
+      justify-content: flex-start; 
+      height: 10vh;
+      margin: 0 5rem; 
   }
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
@@ -41,6 +45,20 @@
   .about-containers {
     margin-top: 0;
   }
+
+  footer nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  footer .nav-links {
+    display: flex;
+    gap: 1.5rem; /* Space between footer links */
+    list-style: none;
+    padding: 0;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
