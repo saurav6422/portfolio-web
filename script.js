@@ -5,7 +5,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-// Dark / light mode
+// Dark mode / light mode
 
 const btn = document.getElementById("modeToggle");
 const btn2 = document.getElementById("modeToggle2");
